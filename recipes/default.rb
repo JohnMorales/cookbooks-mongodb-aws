@@ -6,7 +6,7 @@ end
 
 template "/etc/mongod.conf" do
   mode 0600
-  source "mongodb.conf.erb"
+  source "mongod.conf.erb"
   action :create
 end
 
